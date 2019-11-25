@@ -1,7 +1,10 @@
 <template>
-    <div class="flex justify-center">
-      <div class="text-center mt-32">
-          <img src="/img/logo.png" alt="" class="w-48 mb-16">
+  <div class="container mx-auto">
+    <div class="flex justify-center font-body">
+      <section class="text-center mt-32">
+          <img src="/img/AppIconBW.png" alt="Beard Tracker App" class="w-48 mb-16">
+          <h1 class="hidden">Beard Tracker on iOS</h1>
+
           <a href="https://apps.apple.com/au/app/beard-tracker/id1485334166">
           <svg class="inline-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="US_UK_Download_on_the" x="0px" y="0px" width="135px" height="40px" viewBox="0 0 135 40" enable-background="new 0 0 135 40" xml:space="preserve">
             <g>
@@ -43,7 +46,15 @@
           </g>
           </svg>
           </a>
-      </div>
+
+          <div class="py-16">
+  
+          <p>Created by <a target="_blank" href="https://www.linkedin.com/in/taylor-ivanoff/">Taylor Ivanoff.</a></p>
+          <p><a target="_blank" href="/privacy">Privacy Policy</a></p>
+
+</div>  
+      </section>
+    </div>
     </div>
 </template>
 
